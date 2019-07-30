@@ -9,7 +9,7 @@ module.exports = {
   },
   plugins: [
     new webpack.DefinePlugin({
-      API: JSON.stringify('./src/a.js')
+      API: JSON.stringify('./a.js')
     })
   ]
 };
